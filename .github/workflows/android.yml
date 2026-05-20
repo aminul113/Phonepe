@@ -28,4 +28,4 @@ jobs:
           chmod +x gradle/wrapper/gradle-wrapper.jar
 
       - name: Build with Gradle
-        run: bash ./gradlew build
+        run: bash gradlew build
